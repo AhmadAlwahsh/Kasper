@@ -90,10 +90,11 @@
   /* End Components */
   /* Start Header */
   header {
-    position: absolute;
+    position: fixed;
     left: 0;
     width: 100%;
-    z-index: 2;
+    z-index: 9;
+    background-color:#0000005c
   }
   header .container {
     display: flex;
